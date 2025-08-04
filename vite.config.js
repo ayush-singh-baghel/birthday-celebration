@@ -8,4 +8,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   // base: `/${repoName}/`,
   plugins: [react(), tailwindcss()],
+  base: '/birthday-celebration/',
 })
